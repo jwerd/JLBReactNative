@@ -2,14 +2,21 @@ import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
-const Result = ({ workout, repCount }) => {
-    const restTime = 90 / repCount;
+
+const Result = ({ route }) => {
+    const { workout, repCount } = route.params;
+
+    const calculateTimePerRep = 90 / repCount;
+
+    const capitalize = (word) => word.charAt(0).toUpperCase() + word.slice(1);
+
+    const formattedWorkout = workout.split(' ').map(capitalize).join(' ');
 
     return (
         <View style={styles.container}>
             <View style={styles.row}>
-                <Ionicons name="barbel" size={24} color="#000" />
-                <Text style={styles.text}>{workout}</Text>
+                <Ionicons name="barbell" size={24} color="#000" />
+                <Text style={styles.text}>{formattedWorkout}</Text>
             </View>
             <View style={styles.row}>
                 <Ionicons name="" size={24} color="#000" />
@@ -18,7 +25,7 @@ const Result = ({ workout, repCount }) => {
             <View style={styles.row}>
                 <Ionicons name="ios-stopwatch" size={24} color="#000" />
                 <Text style={styles.text}>
-                    {restTime.toFixed(2)} seconds between reps
+                    {calculateTimePerRep.toFixed(2)} seconds between reps
                 </Text>
             </View>
         </View>

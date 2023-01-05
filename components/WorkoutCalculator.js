@@ -4,12 +4,8 @@ import { Picker } from '@react-native-picker/picker';
 import Result from './Result';
 
 const WorkoutCalculator = ({ navigation }) => {
-    const [workout, setWorkout] = useState('');
-    const [repCount, setRepCount] = useState(0);
-
-    const calculateRestTime = () => {
-        return 90 / repCount;
-    };
+    const [workout, setWorkout] = useState('squats');
+    const [repCount, setRepCount] = useState(4);
 
     return (
         <View style={styles.container}>
@@ -17,7 +13,9 @@ const WorkoutCalculator = ({ navigation }) => {
             <Picker
                 selectedValue={workout}
                 style={styles.picker}
-                onValueChange={(itemValue) => setWorkout(itemValue)}
+                onValueChange={(itemValue) => {
+                    setWorkout(itemValue);
+                }}
             >
                 <Picker.Item label="Squats" value="squats" />
                 <Picker.Item label="Push-ups" value="push-ups" />
@@ -43,8 +41,7 @@ const WorkoutCalculator = ({ navigation }) => {
                 onPress={() =>
                     navigation.navigate('Result', {
                         workout,
-                        repCount,
-                        restTime: calculateRestTime(),
+                        repCount
                     })
                 }
             />

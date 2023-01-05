@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3b24313-3118-4900-bb0b-2c72643cf447" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/App.js.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Exercise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/RepCounterScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Result.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/TimerScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Workout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/WorkoutCalculator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/WorkoutNavigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/WorkoutScroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/WorkoutTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/WorkoutWizard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Result.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Result.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WorkoutCalculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WorkoutCalculator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +26,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -42,26 +41,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/jwerd/Projects/JustLiftBro",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/jwerd/Library/Application Support/JetBrains/Toolbox/apps/PhpStorm/ch-0/223.7571.212/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jwerd/Projects/JustLiftBro&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/jwerd/Library/Application Support/JetBrains/Toolbox/apps/PhpStorm/ch-0/223.7571.212/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -77,6 +76,7 @@
       <updated>1671912327953</updated>
       <workItem from="1671912329437" duration="712000" />
       <workItem from="1672546338447" duration="13935000" />
+      <workItem from="1672777406264" duration="17751000" />
     </task>
     <servers />
   </component>
